@@ -6,16 +6,18 @@
  */
 
 //Variables and Data Types
-//var myAddress = "123 Elm Street";
-//var milesToStore = 15;
-//var isThereConstruction = true;
-var myFirstName;
-var myLastName;
 
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo" ];
+
+muppetNames[1];
+
+console.log(muppetNames[1]);
 
 // Prompts
-myFirstName = prompt("Please enter your first name: ");
-myLastName = prompt("Please enter your last name: ");
+
+
+
+
 
 // Outputs
-console.log("You entered the following name: " + myFirstName + " " + myFirstName + ".");
+
