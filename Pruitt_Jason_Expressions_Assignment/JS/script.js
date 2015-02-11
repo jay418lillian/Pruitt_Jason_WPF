@@ -6,9 +6,8 @@
  */
 
 //Variables and Data Types
-var width = 4.77;
-var height = 15.5;
-var area = width * height/2;
+var orangeBin = [234, 567, 883];
+var total = orangeBin[0] + orangeBin[1] + orangeBin[2];
 
 
 
@@ -20,4 +19,4 @@ var area = width * height/2;
 
 // Outputs
 
-console.log(area);
+console.log(total);
