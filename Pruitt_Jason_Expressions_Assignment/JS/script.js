@@ -4,16 +4,25 @@
  * Section 1
  *
  */
-// PEMDAS
 //Variables and Data Types
-var firstName = "Jason";
-var lastName = "Pruitt";
-var fullName = firstName + " " + lastName;
+
+
+
+var a = "6";
+var b = "7";
+
+var result = a + b;
+
+
+
 // Prompts
 
 
 
 
 
+
+
+
 // Outputs
-console.log(fullName);
+console.log(result);
