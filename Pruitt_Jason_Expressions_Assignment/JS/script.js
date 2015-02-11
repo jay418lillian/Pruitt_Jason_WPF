@@ -8,8 +8,7 @@
 //Variables and Data Types
 var width = 4;
 var height = 5;
-var area = width * height;
-
+var area = width * height/2; 
 
 
 
