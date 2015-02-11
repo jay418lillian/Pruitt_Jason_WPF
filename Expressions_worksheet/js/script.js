@@ -29,4 +29,5 @@ dogYears = age * 7;
 
 
 // Outputs
+//Print out the Age of Sparky in Dog Years.
 console.log("Sparky's age in dog years is " + dogYears);
