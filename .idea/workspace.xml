@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a31d23d-b845-4766-b7bb-c38c4aff4067" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js" afterPath="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pruitt_Jason_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22488755" vertical-offset="0" max-vertical-offset="667">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5622189" vertical-offset="0" max-vertical-offset="667">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -390,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22488755" vertical-offset="0" max-vertical-offset="667">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5622189" vertical-offset="0" max-vertical-offset="667">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>
