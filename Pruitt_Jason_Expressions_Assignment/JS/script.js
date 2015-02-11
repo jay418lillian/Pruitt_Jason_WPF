@@ -6,8 +6,7 @@
  */
 
 //Variables and Data Types
-var orangeBin = [234, 567, 883];
-var total = orangeBin[0] + orangeBin[1] + orangeBin[2];
+var reamainder = 32 % 10;
 
 
 
@@ -19,4 +18,4 @@ var total = orangeBin[0] + orangeBin[1] + orangeBin[2];
 
 // Outputs
 
-console.log(total);
+console.log(reamainder);
