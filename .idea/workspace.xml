@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a31d23d-b845-4766-b7bb-c38c4aff4067" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/GlobalSession.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js" afterPath="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9a31d23d-b845-4766-b7bb-c38c4aff4067" name="Default" comment="" />
     <ignored path="Pruitt_Jason_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33733132" vertical-offset="0" max-vertical-offset="667">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch2_examp4.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/ch2_examp4.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="643">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -62,6 +68,7 @@
         <option value="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/GlobalSession.html" />
         <option value="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js" />
+        <option value="$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/ch2_examp4.htm" />
       </list>
     </option>
   </component>
@@ -159,24 +166,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Pruitt_Jason_Expressions_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pruitt_Jason_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pruitt_Jason_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pruitt_Jason_Expressions_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,8 +342,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33733132" vertical-offset="0" max-vertical-offset="667">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pruitt_Jason_Expressions_Assignment/ch2_examp4.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2799378" vertical-offset="0" max-vertical-offset="643">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
