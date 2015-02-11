@@ -6,10 +6,11 @@
  */
 
 //Variables and Data Types
- var yearBorn = 1988;
-var age = 2015 - yearBorn
+var width = 4;
+var height = 5;
+var area = width * height;
 
-console.log(age);
+
 
 
 // Prompts
@@ -20,3 +21,4 @@ console.log(age);
 
 // Outputs
 
+console.log(area);
