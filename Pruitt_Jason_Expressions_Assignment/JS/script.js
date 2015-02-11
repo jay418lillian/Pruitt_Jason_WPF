@@ -8,10 +8,11 @@
 
 
 
-var a = 6;
-var b = 7;
 
-var result = a + b;
+var a = 3;
+a + 4;
+
+
 
 
 
@@ -25,4 +26,4 @@ var result = a + b;
 
 
 // Outputs
-console.log(result);
+console.log(a);
