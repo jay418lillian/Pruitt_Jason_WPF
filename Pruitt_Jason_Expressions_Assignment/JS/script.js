@@ -6,9 +6,10 @@
  */
 
 //Variables and Data Types
- var a = 2;
-a = a + 3;
-console.log(a);
+ var yearBorn = 1988;
+var age = 2015 - yearBorn
+
+console.log(age);
 
 
 // Prompts
