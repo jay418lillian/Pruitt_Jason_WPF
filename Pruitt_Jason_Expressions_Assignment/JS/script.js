@@ -6,12 +6,9 @@
  */
 
 //Variables and Data Types
+ var a = 2;
+console.log(a);
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo" ];
-
-muppetNames[1];
-
-console.log(muppetNames[1]);
 
 // Prompts
 
