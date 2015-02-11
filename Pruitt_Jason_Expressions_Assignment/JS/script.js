@@ -6,11 +6,9 @@
  */
 //Variables and Data Types
 
+var userInput = prompt("Enter your year of birth:");
 
 
-
-var a = 3;
-a + 4;
 
 
 
@@ -26,4 +24,4 @@ a + 4;
 
 
 // Outputs
-console.log(a);
+console.log(userInput)
