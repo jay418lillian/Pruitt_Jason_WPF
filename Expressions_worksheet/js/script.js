@@ -40,4 +40,13 @@ slicesPerPerson = (pizzas * slices) / people;
 //Each person receives X slices of pizza at the party.
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
 
-//
+//Calculate how many left over pieces of pizza Sparky gets to eat.
+
+var sparkySlices;
+
+sparkySlices = (pizzas * slices) % people;
+
+
+//Print Sparky got X slices of pizza.
+
+console.log("Sparky got " + sparkySlices + " slices of pizza.");
