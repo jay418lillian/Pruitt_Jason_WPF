@@ -58,4 +58,26 @@ average = total / 5;
 
 //You have spent a total of $X on groceries over 5 weeks. That is an average of $X per week
 
-console.log("You have spent a total of " + total + " on groceries over 5 weeks. That is an average of " + average + " per week.")
+console.log("You have spent a total of " + total + " on groceries over 5 weeks. " +
+"That is an average of " + average + " per week.");
+
+//Calculate the discounted price for an item.
+
+var price;
+var discount;
+var tax;
+var soundBar;
+var woTax;
+var withTax;
+
+tax =  1.07
+price = 150.00;
+discount = 20;
+woTax = price * .8;
+withTax = (price *.8) * tax;
+soundBar = "sound bar";
+
+
+    //Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
+
+console.log("Your " + soundBar + " was originally " + price + ", but after a " + discount + "% discount, it is now $" + woTax +  " without tax, and $" + withTax + " with tax.");
