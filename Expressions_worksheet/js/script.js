@@ -6,7 +6,25 @@
  * Expressions WorkSheet
  */
 
+
 //Variables and Data Types
+
+//Calculate Sparky's Age
+
+var age;
+var dogYears;
+
+
+//Multiply age times 7 to obtain dog years.
+
+age = 4;
+dogYears = age * 7;
+
+
+// Outputs
+//Print out the Age of Sparky in Dog Years.
+console.log("Sparky is " + age + " in human years, which is " + dogYears + " in dog years.");
+
 //Calculate how many slices of pizza everyone will receive.
 var slices;
 var people;
@@ -19,16 +37,7 @@ people = 15;
 
 slicesPerPerson = (pizzas * slices) / people;
 
-
-
-// Prompts
-
-
-
-
-
-
-
-// Outputs
 //Each person receives X slices of pizza at the party.
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+//
