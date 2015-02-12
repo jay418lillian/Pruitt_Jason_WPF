@@ -1,29 +1,17 @@
-/**
- * Jason Pruitt
+/* Jason Pruitt
  * SDI 1502
  * Section 1
- *2-12-15
- * Expressions Assignment
+ * 2-12-15
  */
 
-var apples = prompt("I am calculating the amount of fruit you eat in a month. \n Enter how many apples you eat a week.");
-var oranges = prompt("How many oranges do you eat in a month?");
-var bananas = prompt("How many bananas do you eat every two weeks?");
+var apples = prompt("I am calculating how much fruit you consume in a month. How many apples do you eat in a week?") * 4;
+var bananas = prompt("How many bananas do you eat every two weeks?") * 2;
+var oranges = prompt("How many oranges do you eat in a week?") * 4;
+var fruit = apples + bananas + oranges;
 
-var fruit = [apples * 4, oranges, bananas * 2];
+console.log(apples);
+console.log(bananas);
+console.log(oranges);
+console.log(fruit);
 
-var totalFruit;
-totalFruit = fruit[0] + fruit[1] + fruit[2];
-
-
-
-
-
-
-
-
-console.log(fruit)
-
-console.log(totalFruit)
-
-alert("Wow, I project you will eat " + totalFruit + " pieces of fruit this month!");
+alert("Wow, you are projected to eat " + fruit + " pieces of fruit this month!");
