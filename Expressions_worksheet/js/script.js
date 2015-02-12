@@ -81,3 +81,4 @@ soundBar = "sound bar";
     //Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.
 
 console.log("Your " + soundBar + " was originally " + price + ", but after a " + discount + "% discount, it is now $" + woTax +  " without tax, and $" + withTax + " with tax.");
+
