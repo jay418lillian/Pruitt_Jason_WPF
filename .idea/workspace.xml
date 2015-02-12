@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a31d23d-b845-4766-b7bb-c38c4aff4067" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_worksheet/js/script.js" afterPath="$PROJECT_DIR$/Expressions_worksheet/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Pruitt_Jason_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -40,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92727274" vertical-offset="0" max-vertical-offset="870">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.72727275" vertical-offset="180" max-vertical-offset="1005">
+              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -435,16 +434,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92727274" vertical-offset="0" max-vertical-offset="870">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.72727275" vertical-offset="180" max-vertical-offset="1005">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
           <folding />
         </state>
       </provider>
