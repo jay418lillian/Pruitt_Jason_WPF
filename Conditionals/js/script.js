@@ -2,19 +2,14 @@
  * Created by Jason on 2/12/15.
  */
 
-var kidHeight = 45;
-var minHeight = 48;
-var parentHeight = 45;
-//if the child is old enough, print to console " you can ride."
-//if kid is over 48 inches in height
+var budget = 300;
+var iPhone = 199.99;
+var paycheck = 200;
 
-if(kidHeight > minHeight){
-    //code performed if conditional is true
-    console.log("You can ride the coaster!");
-}
-else if(kidHeight >= parentHeight){
-    console.log("You can ride, but only with a parent present.");
-}else{
-    console.log("Sorry kid, you've got some growing to do first.");
+//if the rice of the phone is less our budget AND if our paycheck is over 300
+if(iPhone < budget && paycheck > 300){
+    console.log("We can buy the phone!");
+}else {
+    console.log("No phone for you!!");
+};
 
-}
