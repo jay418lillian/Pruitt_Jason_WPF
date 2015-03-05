@@ -3,6 +3,7 @@ Jason Pruitt
  3-5-15
  SDI
  C201503
+ Output Assignment
  */
 
 var shotPercentage = 55.72;         //number data type
