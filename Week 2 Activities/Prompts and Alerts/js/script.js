@@ -5,3 +5,7 @@
  C201503
 Week 2 Activities
  */
+
+    //Prompt & Alert
+var userInput = prompt("Enter your year of birth");
+console.log(userInput);
