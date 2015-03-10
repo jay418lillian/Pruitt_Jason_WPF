@@ -21,9 +21,9 @@ console.log("Sparky is " + dogAge + " human years old which is " + dogYears + " 
 //Slice of Pie part 1
 //Calculate how many slices of Pizza each person receives.
 
-var slicesPerPizza = 8;     //given variable for slices per pizza
-var people = 9;            //given variable for number of people
-var pizzas = 6;             //given variable for number of pizzas
+var slicesPerPizza = 10;     //given variable for slices per pizza
+var people = 15;            //given variable for number of people
+var pizzas = 7;             //given variable for number of pizzas
 
 //Multiply slicesPerPizza * pizzas and divide result by people.
 
