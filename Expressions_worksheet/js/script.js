@@ -52,3 +52,16 @@ var average = (shoppingBill[0] + shoppingBill[1] + shoppingBill[2] + shoppingBil
 //print results to console.
 
 console.log("You have spent a total of " + totalBill + " on groceries over 5 weeks. That is an average of " + average + " per week.");
+
+//Discounts
+//Calculate the discounted price for an item
+
+var shoes = "brand new Jordan\'s"
+var originalPrice = 300;
+var discount = 20;
+var discountPercent = discount / 100;
+var withoutTax = originalPrice - (originalPrice * discountPercent);
+var withTax = withoutTax * 1.07;
+
+//print calculations to console.
+console.log("Your " + shoes + " were originally $" + originalPrice + " but after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax.");
