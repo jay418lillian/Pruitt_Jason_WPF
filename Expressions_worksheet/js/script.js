@@ -41,3 +41,14 @@ var sparkysShare = slicesPerPizza * pizzas % people;
 //print result to console
 
 console.log("Sparky got " + sparkysShare + " slices of pizza.");
+
+//Average Shopping bill
+//Calculate the average amount of money spent over the last 5 weeks.
+
+var shoppingBill = [222, 178, 278, 313, 199];
+var totalBill = shoppingBill[0] + shoppingBill[1] + shoppingBill[2] + shoppingBill[3] + shoppingBill[4];
+var average = (shoppingBill[0] + shoppingBill[1] + shoppingBill[2] + shoppingBill[3] + shoppingBill[4]) / 5;    //use PEMDAS
+
+//print results to console.
+
+console.log("You have spent a total of " + totalBill + " on groceries over 5 weeks. That is an average of " + average + " per week.");
