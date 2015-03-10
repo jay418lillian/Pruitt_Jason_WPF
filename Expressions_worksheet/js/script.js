@@ -64,4 +64,5 @@ var withoutTax = originalPrice - (originalPrice * discountPercent);
 var withTax = withoutTax * 1.07;
 
 //print calculations to console.
+
 console.log("Your " + shoes + " were originally $" + originalPrice + " but after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax.");
