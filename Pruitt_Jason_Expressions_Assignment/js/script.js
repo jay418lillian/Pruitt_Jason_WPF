@@ -8,10 +8,10 @@ Expressions Assignment
 
 //Create variables using prompts to ask user for input and convert input to Number Data Type for use in conversions.
 
-alert("I am calculating how many fluid ounces you drink in a year! \nLets get started.");
-var cups = Number(prompt("How many cups of water do you consume daily? \nIt can be an estimate."));
-var gallons = Number(prompt("How many gallons of milk do you generally drink in a month basis?"));
-var cans =Number(prompt("How many cans of soda do you enjoy in the average week?"));
+alert("I am calculating how many fluid ounces you drink in a year! \nLets get started.");               //Alert user of intentions
+var cups = Number(prompt("How many cups of water do you consume daily? \nIt can be an estimate."));     //Ask user for input on cups
+var gallons = Number(prompt("How many gallons of milk do you generally drink in a month basis?"));      //Ask user for input on gallons
+var cans =Number(prompt("How many cans of soda do you enjoy in the average week?"));                    //Ask user for input on cans
 
 //Convert User Input to Fluid Ounces in a year
 
