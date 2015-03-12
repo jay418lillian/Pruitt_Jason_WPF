@@ -8,12 +8,10 @@ Expressions Assignment
 
 //Create variables using prompts to ask user for input
 
- alert("I am calculating the percentage of your income that you spend on gas for your vehicle.");
-var gasWeek1 = prompt("How much money did you put in gas the first week of February?");
-var gasWeek2 = prompt("How much gas money did you spend in Week 2?");
-var gasWeek3 = prompt("Week 3?");
-var gasWeek4 = prompt("And how about week 4?");
-var income = prompt("Now what is your average monthly income?")
+alert("I am calculating how many fluid ounces you drink in a year! \nLets get started.");
+var cups = prompt("How many cups of water do you consume daily? \nIt can be an estimate.");
+var pints = prompt("How many pints of milk do you generally drink on a weekly basis?");
+
 //create an array and convert prompts to number for use in calculation.
 
 var gasTotalArray = [Number(gasWeek1), Number(gasWeek2), Number(gasWeek3), Number(gasWeek4)];   //Array that collects prompt information and converts strings to numbers
@@ -21,6 +19,8 @@ var gasTotal = gasTotalArray[0] + gasTotalArray[1] + gasTotalArray[2] + gasTotal
 income = Number(income);                                                                        //convert input to number.
 
 
+var gasExpense = income / gasTotal;
 
 console.log(income);
 console.log(gasTotal);
+console.log(gasExpense);
