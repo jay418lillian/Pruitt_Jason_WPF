@@ -6,21 +6,49 @@ SDI
 Expressions Assignment
  */
 
-//Create variables using prompts to ask user for input
+//Create variables using prompts to ask user for input and convert input to Number Data Type for use in conversions.
 
 alert("I am calculating how many fluid ounces you drink in a year! \nLets get started.");
-var cups = prompt("How many cups of water do you consume daily? \nIt can be an estimate.");
-var pints = prompt("How many pints of milk do you generally drink on a weekly basis?");
+var cups = Number(prompt("How many cups of water do you consume daily? \nIt can be an estimate."));
+var gallons = Number(prompt("How many gallons of milk do you generally drink in a month basis?"));
+var cans =Number(prompt("How many cans of soda do you enjoy in the average week?"));
 
-//create an array and convert prompts to number for use in calculation.
+//Convert User Input to Fluid Ounces in a year
 
-var gasTotalArray = [Number(gasWeek1), Number(gasWeek2), Number(gasWeek3), Number(gasWeek4)];   //Array that collects prompt information and converts strings to numbers
-var gasTotal = gasTotalArray[0] + gasTotalArray[1] + gasTotalArray[2] + gasTotalArray[3];       //Using array to add the total amount of money spent on Gas
-income = Number(income);                                                                        //convert input to number.
+cups *= 365;        //Calculate cups drank in a year
+gallons *= 12;      //Calculate gallons drank in a year
+cans *= 52;         //Calculate cans drank in a year
 
+cups *= 8;          //Convert to fluid ounces
+gallons *= 128;     //Convert to fluid ounces
+cans *= 12;         //Convert to fluid ounces
 
-var gasExpense = income / gasTotal;
+//Create an Array to calculate total fluid ounces
 
-console.log(income);
-console.log(gasTotal);
-console.log(gasExpense);
+var totalOuncesArray = [cups, gallons, cans];
+var totalOunces = totalOuncesArray[0] + totalOuncesArray[1] + totalOuncesArray[2];
+
+//Print results to console using Concatenation.
+
+console.log("You are estimated to drink an astonishing total of " + totalOunces + " fluid ounces this year!");
+
+//Test Results
+
+/**
+ First Trial:
+
+ I used 10 for all of the inputs to test the code
+ Cups of water drank           = 29200 Fluid Ounces
+ Gallons of milk drank         = 15360 Fluid Ounces
+ Cans of Soda drank            = 6240 Fluid Ounces
+ Which equals     -------------> 50800 Fluid Ounces
+
+ Second Trial:
+
+ I used 5 for all of the inputs to test the code
+ Cups of water drank           = 14600 Fluid Ounces
+ Gallons of milk drank         =  7680 Fluid Ounces
+ Cans of Soda drank            =  3120 Fluid Ounces
+ Which equals     -------------> 25400 Fluid Ounces
+ */
+
