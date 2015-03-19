@@ -48,6 +48,6 @@ if (construction === true) {
     } else {
         console.log("You want to visit " + emptyString + ".");
     }
-};
+}
 
 console.log("Lets go to the store!");
