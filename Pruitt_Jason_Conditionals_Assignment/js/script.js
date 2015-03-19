@@ -19,31 +19,44 @@ console.log("You are projected to earn " + thisYearIncome + " dollars this year.
 console.log("It is " + wantNewCar + " that you want to buy a new car!");
 
 
+
 //boolean conditional
 if (wantNewCar === true && thisYearIncome > lastYearIncome) {
 
     //code that runs if wantNewCar is True AND thisYearIncome > lastYearIncome
     console.log("Based on the increase in your wages, you may be able to buy a new car!");
 
-} else {
+} else if (wantNewCar === true && thisYearIncome < lastYearIncome) {
 
     //code that runs if wantNewCar is true AND thisYearIncome < lastYearIncome
     console.log("You may want to save up a little more cash before trying to buy a new car.");
 
 
-}
-if (wantNewCar === false) {
+} else {
 
-    //code that runs if wantNewCar is false
-    console.log("")
-
-} else if (ifCar >= thisYearIncome * 10){
-
-    //code that runs if ifCar is 10 times >= thisYearIncome
-    console.log("You would spend 10 times or more than this year's income on a new car!");
-
-}else {
-
-
+    //code that runs if wantNewCar is False
+    console.log("You don't want to buy a new car?!")
 
 }
+
+//conditional for ifCar
+if (ifCar >= thisYearIncome * 4) {
+
+    //code that runs if ifCar is >= 4 * thisYearIncome
+    console.log("If you wanted to buy a new car you would spend 4 times or more of your annual income?!\n Must be a pretty sweet ride!");
+} else {
+
+    //code that runs if ifCar < 4 * thisYearIncome
+    console.log("If you wanted to buy a new car, you would spend less than 4 times your annual budget.\n" +
+    "That isn't too far out of reach if you save for a little while.");
+}
+
+var carBrand = prompt("What kind of car would you end up buying?");
+
+if (carBrand === "") {
+
+    //code that runs if carBrand is empty
+    carBrand = prompt("You forgot to enter a brand of car.\nPlease enter a car.");
+} else {
+        console.log("You would buy a " + carBrand + ".");
+    }
