@@ -52,11 +52,16 @@ if (ifCar >= thisYearIncome * 4) {
 }
 
 var carBrand = prompt("What kind of car would you end up buying?");
-
+/*
 if (carBrand === "") {
 
     //code that runs if carBrand is empty
     carBrand = prompt("You forgot to enter a brand of car.\nPlease enter a car.");
+    console.log("You would buy a " + carBrand + ".");
 } else {
         console.log("You would buy a " + carBrand + ".");
     }
+*/
+
+(carBrand === "") ? prompt("You forgot to enter a brand of car.\nPlease enter a car.") : console.log("You would buy a " + carBrand + ".");
+console.log("You would buy a " + carBrand + "!");
