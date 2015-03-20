@@ -10,7 +10,7 @@ var myOccupation    = "Dexter Axle";                                            
 var lastYearIncome  = Number(prompt("How much money did you earn in 2014"));                                         //Number variable for last years Income
 var thisYearIncome  = Number(prompt("How much money will you earn at the end of 2015"));                             //Number variable for this years Income
 var wantNewCar      = confirm("Do you want buy a new car?\nOK for true, Cancel for false.");                         // boolean for buying a new car.                                                               //Boolean indicating Promotion
-var ifCar           = Number(prompt("If you could or wanted to buy a new car, how much would you spend? "));         //Number variable for use in ternary
+var ifCar           = Number(prompt("If you could or wanted to buy a new car, how much would you spend? "));         //Number variable for use in conditional
 
 //outputs
 console.log("You work at " + myOccupation + "!");
@@ -35,7 +35,7 @@ if (wantNewCar === true && thisYearIncome > lastYearIncome) {
 } else {
 
     //code that runs if wantNewCar is False
-    console.log("You don't want to buy a new car?!")
+    console.log("You don't want to buy a new car?!");
 
 }
 
@@ -51,7 +51,9 @@ if (ifCar >= thisYearIncome * 4) {
     "That isn't too far out of reach if you save for a little while.");
 }
 
+//variable for ternary
 var carBrand = prompt("What kind of car would you end up buying?");
 
 (carBrand === "") ? prompt("You forgot to enter a brand of car.\nPlease enter a car.") : console.log("You would buy a " + carBrand + ".");
+//output
 console.log("You would buy a " + carBrand + "!");
