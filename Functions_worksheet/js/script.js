@@ -34,4 +34,19 @@ function calcCircle(r,p){
  return r * p * 2;
 }
 
-console.log("The circumference of the circle is " + circumference + ".");
+console.log("The circumference of the circle is " + circumference + ".")
+
+    //Stung
+    //Calculate number of bee stings it takes to kill an animal
+
+var bear = 400
+var stings = 8.66
+
+var totalStings = beeStings(bear,stings);
+
+function beeStings(b,s){
+
+ return b * s;
+}
+
+console.log("It takes " + totalStings + " bee stings to kill this animal.");
