@@ -6,11 +6,11 @@ SDI
 Week 4 Activities
  */
 
-function dogYears(age){
- var dogYears = age * 7;
- console.log("Sparky is " + dogYears + " years old.");
-}
+var total = calcArea(30,20);
 
-var doggy = 50;
-dogYears(4);
-dogYears(doggy);
+function calcArea(w,h){
+ var area = w * h;
+ return area;         //function spitting the info out
+
+}
+console.log(total);
