@@ -6,11 +6,12 @@ SDI
 Week 4 Activities
  */
 
-var total = calcArea(30,20);
+var calcArea = function(width, height){  //defining
+ //code the function runs
+ var area = width * height;
+ return area;
+};
 
-function calcArea(w,h){
- var area = w * h;
- return area;         //function spitting the info out
+var a = calcArea(20,30; //invoking
 
-}
-console.log(total);
+console.log(a);
