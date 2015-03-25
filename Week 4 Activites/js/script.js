@@ -6,13 +6,9 @@ SDI
 Week 4 Activities
  */
 
-var myName = "Jaso";
+var b = 10;
 
-if (myName === "Jason") {
- console.log("Hello, " + myName + ".");
-
-} else {
- console.log("Who are you?");
+while (b > 0){
+ console.log(b + 'kegs on the wall');
+ b--;
 }
-
-(myName === "Jason") ? console.log("Welcome back, " + myName + ".") : console.log("intruder!");
