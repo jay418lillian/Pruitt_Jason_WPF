@@ -6,9 +6,8 @@ SDI
 Week 4 Activities
  */
 
-var b = 10;
+console.log("------For Loops-------");
 
-while (b > 0){
- console.log(b + 'kegs on the wall');
- b--;
+for (var i = 10; i > 0; i--){
+ console.log(i + " kegs on the wall");
 }
