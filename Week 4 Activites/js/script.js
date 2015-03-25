@@ -6,8 +6,18 @@ SDI
 Week 4 Activities
  */
 
-console.log("------For Loops-------");
+//variables
 
-for (var i = 10; i > 0; i--){
- console.log(i + " kegs on the wall");
+var myName = prompt("Enter your name please:");
+
+//functions
+
+function nameValidation(firstName){
+
+ console.log("You entered: " + firstName);
+
 }
+
+//main code
+
+nameValidation(myName);
