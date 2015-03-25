@@ -8,7 +8,8 @@ Week 4 Activities
 
 //variables
 
-var myName = prompt("Enter your name please:");
+//var myName = prompt("Enter your name please:");
+var myRandom;
 
 //functions
 
@@ -28,8 +29,37 @@ function nameValidation(firstName){
   }
 
  }
+
+ return firstName;
+
 }
+
+
+function randomNumGen (min, max, num) {
+
+ var randomArray = [];
+
+ // Math.random() * (max - min) + min
+ for (var i = 0; i < num; i++) {
+
+
+  var myRandomNumber = Math.round(Math.random() * (max - min) + min);
+
+ randomArray [i] = myRandomNumber;
+  }
+
+ return randomArray;
+
+}
+
 
 //main code
 
-nameValidation(myName);
+//myName = nameValidation(myName);
+//console.log("Hello, " + myName + ".");
+
+myRandom = randomNumGen(10, 100, 5);
+console.log(myRandom);
+
+myRandom = randomNumGen(50, 1000, 10);
+console.log(myRandom);
