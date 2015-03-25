@@ -6,12 +6,13 @@ SDI
 Week 4 Activities
  */
 
-var calcArea = function(width, height){  //defining
- //code the function runs
- var area = width * height;
- return area;
-};
+var myName = "Jaso";
 
-var a = calcArea(20,30; //invoking
+if (myName === "Jason") {
+ console.log("Hello, " + myName + ".");
 
-console.log(a);
+} else {
+ console.log("Who are you?");
+}
+
+(myName === "Jason") ? console.log("Welcome back, " + myName + ".") : console.log("intruder!");
