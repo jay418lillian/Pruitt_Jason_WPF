@@ -14,8 +14,11 @@ var myName = prompt("Enter your name please:");
 
 function nameValidation(firstName){
 
- console.log("You entered: " + firstName);
+ while (firstName === ""){
 
+  firstName = prompt("Do not leave this blank.\nPlease enter your first name:");
+
+ }
 }
 
 //main code
