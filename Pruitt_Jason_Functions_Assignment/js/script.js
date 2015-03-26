@@ -9,7 +9,8 @@ Functions Assignment
 //variables
 
 var choice = prompt("Would you like to play the PowerBall or Florida Lottery?\nPlease enter PowerBall or Florida Lottery.");
-
+var choicePowerBall;
+var powerballNumber;
 //Functions
 //Function that validates choice prompt.
 
@@ -42,7 +43,31 @@ function powerballGen(min, max, num){
  var powerballArray = [];
 
  // Math.random() * (max - min) + min
- for (var i = 0; i < num; )
+ for (var i = 0; i < num; i++) {
+
+  var powerNumbers = Math.round(Math.random() * (59 - 1) + 1);
+
+  powerballArray [i] = powerNumbers;
+
+ }
+
+ return powerballArray;
+
+}
+
+function powerballNumberGen(min, max, num) {
+
+ var ballArray = [];
+
+ for (var i = 0; i < num; i++){
+
+  var ballNumbers = Math.round(Math.random() * (35 - 1) + 1);
+
+  ballArray [i] = ballNumbers;
+
+ }
+
+ return ballArray;
 
 }
 
@@ -50,3 +75,9 @@ function powerballGen(min, max, num){
 
 choice = powerBallValidation(choice);
 console.log("You have chosen to play " + choice + "! Good Luck!");
+
+choicePowerBall = powerballGen(1, 59, 5);
+console.log("Your lottery Numbers are " + choicePowerBall + ".");
+
+powerballNumber = powerballNumberGen(1, 35, 1);
+console.log("Your Powerball Number is " + powerballNumber + ".");
