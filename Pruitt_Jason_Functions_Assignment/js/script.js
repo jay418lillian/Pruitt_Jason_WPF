@@ -10,7 +10,8 @@ Functions Assignment
 
 var choice = prompt("Would you like to play the PowerBall or Florida Lottery?\nPlease enter PowerBall or Florida Lottery.");
 
-//functions
+//Functions
+//Function that validates choice prompt.
 
 function powerBallValidation(lotteryChoice){
 
@@ -24,14 +25,24 @@ function powerBallValidation(lotteryChoice){
 
   if (timesClicked === 5) {
 
-   console.log("You did not enter PowerBall or Florida Lottery.\nPlease refresh the page and enter the requested information.");
-   break;
+   console.log("You did not enter if you preferred to play PowerBall or the Florida Lottery.\nPlease refresh the page and enter the requested information.");
 
   }
 
  }
 
  return lotteryChoice;
+
+}
+
+//function that generates random PowerBall numbers.
+
+function powerballGen(min, max, num){
+
+ var powerballArray = [];
+
+ // Math.random() * (max - min) + min
+ for (var i = 0; i < num; )
 
 }
 
