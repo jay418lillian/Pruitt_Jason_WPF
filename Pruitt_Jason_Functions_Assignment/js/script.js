@@ -95,8 +95,8 @@ function floridaLottoGen(min, max, num2) {
 
 //main code
 
-//choice = powerBallValidation(choice);
-//console.log("You have chosen to play " + choice + "! Good Luck!");
+choice = powerBallValidation(choice);
+console.log("You have chosen to play " + choice + "! Good Luck!");
 
 choicePowerBall = powerBallGen(1, 59, 5);
 
@@ -111,13 +111,10 @@ if (choice === "PowerBall"){
 
  console.log("Your lottery Numbers are " + choicePowerBall + ", \n and your PowerBall Number is " + powerBallNumber + ".");
 
-} else if(choice === "Florida Lottery") {
+} else {
 
  console.log("Your Florida Lottery Numbers are " + choiceFloridaLottery + ".");
 
-}else{
-
- var choose = prompt("Please enter PowerBall or Florida Lottery.");
- console.log("")
-
 }
+
+
