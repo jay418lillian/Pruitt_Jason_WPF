@@ -10,7 +10,7 @@ Functions Assignment
 
 var choice = prompt("Would you like to play the PowerBall or Florida Lottery?\nPlease enter PowerBall or Florida Lottery.");
 var choicePowerBall;
-var powerballNumber;
+var powerBallNumber;
 var choiceFloridaLottery;
 
 //Functions
@@ -40,26 +40,26 @@ function powerBallValidation(lotteryChoice){
 
 //function that generates first 5 random PowerBall numbers.
 
-function powerballGen(min, max, num){
+function powerBallGen(min, max, num){
 
- var powerballArray = [];
+ var powerBallArray = [];
 
  // Math.random() * (max - min) + min
  for (var i = 0; i < num; i++) {
 
   var powerNumbers = Math.round(Math.random() * (59 - 1) + 1);
 
-  powerballArray [i] = powerNumbers;
+  powerBallArray [i] = powerNumbers;
 
  }
 
- return powerballArray;
+ return powerBallArray;
 
 }
 
 //function that generates 6th PowerBall Number
 
-function powerballNumberGen(min, max, num1) {
+function powerBallNumberGen(min, max, num1) {
 
  var ballArray = [];
 
@@ -95,12 +95,12 @@ function floridaLottoGen(min, max, num2) {
 
 //main code
 
-choice = powerBallValidation(choice);
+//choice = powerBallValidation(choice);
 //console.log("You have chosen to play " + choice + "! Good Luck!");
 
-choicePowerBall = powerballGen(1, 59, 5);
+choicePowerBall = powerBallGen(1, 59, 5);
 
-powerballNumber = powerballNumberGen(1, 35, 1);
+powerBallNumber = powerBallNumberGen(1, 35, 1);
 //console.log("Your PowerBall Number is " + powerballNumber + ".");
 
 choiceFloridaLottery = floridaLottoGen(1, 53, 6);
@@ -109,15 +109,15 @@ choiceFloridaLottery = floridaLottoGen(1, 53, 6);
 
 if (choice === "PowerBall"){
 
- console.log("Your lottery Numbers are " + choicePowerBall + ", \n and your PowerBall Number is " + powerballNumber + ".");
+ console.log("Your lottery Numbers are " + choicePowerBall + ", \n and your PowerBall Number is " + powerBallNumber + ".");
 
 } else if(choice === "Florida Lottery") {
 
- console.log("Your Florida Lottery Numbers are " + powerballNumber + ".");
+ console.log("Your Florida Lottery Numbers are " + choiceFloridaLottery + ".");
 
 }else{
 
- choice = powerBallValidation(choice);
- console.log("You have chosen to play " + choice + "! Good Luck!");
+ var choose = prompt("Please enter PowerBall or Florida Lottery.");
+ console.log("")
 
 }
