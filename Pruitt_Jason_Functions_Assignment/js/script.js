@@ -59,11 +59,11 @@ function powerballGen(min, max, num){
 
 //function that generates 6th PowerBall Number
 
-function powerballNumberGen(min, max, num) {
+function powerballNumberGen(min, max, num1) {
 
  var ballArray = [];
 
- for (var i = 0; i < num; i++){
+ for (var i = 0; i < num1; i++){
 
   var ballNumbers = Math.round(Math.random() * (35 - 1) + 1);
 
@@ -77,11 +77,11 @@ function powerballNumberGen(min, max, num) {
 
 //function that generates 5 random numbers for Florida Lottery
 
-function floridaLottoGen(min, max, num) {
+function floridaLottoGen(min, max, num2) {
 
  var lottoArray = [];
 
- for (var i = 0; i < num; i++){
+ for (var i = 0; i < num2; i++){
 
   var lottoNumbers = Math.round(Math.random() * (53 - 1) + 1);
 
@@ -96,13 +96,28 @@ function floridaLottoGen(min, max, num) {
 //main code
 
 choice = powerBallValidation(choice);
-console.log("You have chosen to play " + choice + "! Good Luck!");
+//console.log("You have chosen to play " + choice + "! Good Luck!");
 
 choicePowerBall = powerballGen(1, 59, 5);
-console.log("Your lottery Numbers are " + choicePowerBall + ".");
 
 powerballNumber = powerballNumberGen(1, 35, 1);
-console.log("Your PowerBall Number is " + powerballNumber + ".");
+//console.log("Your PowerBall Number is " + powerballNumber + ".");
 
 choiceFloridaLottery = floridaLottoGen(1, 53, 6);
-console.log("Your Florida Lottery Numbers are  " + powerballNumber + ".");
+//console.log("Your Florida Lottery Numbers are " + powerballNumber + ".");
+
+
+if (choice === "PowerBall"){
+
+ console.log("Your lottery Numbers are " + choicePowerBall + ", \n and your PowerBall Number is " + powerballNumber + ".");
+
+} else if(choice === "Florida Lottery") {
+
+ console.log("Your Florida Lottery Numbers are " + powerballNumber + ".");
+
+}else{
+
+ choice = powerBallValidation(choice);
+ console.log("You have chosen to play " + choice + "! Good Luck!");
+
+}
